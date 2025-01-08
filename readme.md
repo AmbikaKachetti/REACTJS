@@ -53,3 +53,34 @@ _________________________________
     - here "hmr: hot module replacement"
     - here [vite] underhood monitor our files for changes, when ever they found any changes it will automatically refresh our page in the browser
 ---------------------------------
+# React handles only UI
+- Routing
+- HTTP
+- Managing app state
+- Internationalization
+- Form Validation
+- Animation
+## for aall these we have 3rd party libraries
+-----------------------------------
+- Building Components
+- Rendering markup with jsx
+- Managing state
+- Passing input via props
+- Debugging react apps
+------------------------------------
+Creating List Group Components: coe is from bootstrap list-group
+- in terminal: react-app>npm i bootstrap@5.2.3
+--------------------------------------
+# naming Convention of components is "PascalCasing" - Capitalizing each word: "ListGroup.tsx"
+_____________________________________
+# ShortCuts
+- ctrl +t for search in vs code
+- ctrl + d for selecting/editing multiple class names at once
+    - then press "esc" for desecting it.
+- <></> or <Fragment></Fragment> 
+- or goto view>commmand palette>wrap with abbriviation
+- or goto view>commmand palette>format document
+_____________________________________
+# Rendering Lists
+- array map method
+- key should be included to each and every item
