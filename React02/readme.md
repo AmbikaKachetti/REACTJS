@@ -19,3 +19,7 @@ __________________________
 2. useEffect(()=>{
         console.log("Hi");
     }, [])
+3. it will runs on every render
+4. replic for componentDidMount from class Component
+5. to fetch the details from the server
+6. server: https://icubecode-server.onrender.com
