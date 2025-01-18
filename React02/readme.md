@@ -23,3 +23,12 @@ __________________________
 4. replic for componentDidMount from class Component
 5. to fetch the details from the server
 6. server: https://icubecode-server.onrender.com
+7. json praser - chrome extention
+8. axios is a npm package/library - fetch alternative
+    - npm i axios (to install)
+    - npm uninstall axios (to unistall)
+    - here, axios will return a promise. So, we have to use then & catch method
+9. dependency array, perform useEffect inside operations only when it reaches certain count.
+    for eample:
+    - count === 10 then only show some alert message
+    - here, we used useState to check the functionality of the "dependency array" [] 

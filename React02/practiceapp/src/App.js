@@ -1,5 +1,6 @@
 
 import './App.css';
+import Effect from './Components/Hooks/Effect';
 import State from './Components/Hooks/State';
 import ComponentA from './Components/Props/ComponentA';
 import {useState} from 'react'
@@ -9,7 +10,8 @@ function App() {
   return (
     <div>
       {/* <State/> */}
-      <ComponentA count = {count}/>
+      {/* <ComponentA count = {count}/> */}
+      <Effect/>
     </div>
   );
 }
